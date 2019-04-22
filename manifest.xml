@@ -1,0 +1,17 @@
+<package>
+  <description brief="RViz mouse publisher">
+
+     Publish 2D interaction of mouse with the map.
+
+  </description>
+  <author>Joydeep Biswas</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>https://github.com/umass-amrl/rviz_mouse_pub</url>
+  <depend package="rviz"/>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <export>
+      <rviz plugin="${prefix}/plugin_description.xml"/>
+  </export>
+</package>

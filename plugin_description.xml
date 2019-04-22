@@ -1,0 +1,9 @@
+<library path="lib/librviz_mouse_pub">
+  <class name="rviz_mouse_pub/MousePub"
+         type="rviz_mouse_pub::MousePub"
+         base_class_type="rviz::Tool">
+    <description>
+      Tool for publishing mouse interactions with the 2D map.
+    </description>
+  </class>
+</library>
