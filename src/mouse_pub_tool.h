@@ -30,8 +30,10 @@
 #ifndef PLANT_FLAG_TOOL_H
 #define PLANT_FLAG_TOOL_H
 
+#ifndef Q_MOC_RUN
 #include <ros/ros.h>
 #include <rviz/tool.h>
+#endif
 
 namespace rviz {
   class ViewportMouseEvent;
